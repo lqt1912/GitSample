@@ -33,8 +33,6 @@
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.listBox4 = new System.Windows.Forms.ListBox();
-            this.listBox5 = new System.Windows.Forms.ListBox();
-            this.listBox6 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -77,28 +75,10 @@
             // 
             this.listBox4.FormattingEnabled = true;
             this.listBox4.ItemHeight = 16;
-            this.listBox4.Location = new System.Drawing.Point(111, 162);
+            this.listBox4.Location = new System.Drawing.Point(73, 226);
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(382, 212);
-            this.listBox4.TabIndex = 6;
-            // 
-            // listBox5
-            // 
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.ItemHeight = 16;
-            this.listBox5.Location = new System.Drawing.Point(279, 56);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(382, 212);
-            this.listBox5.TabIndex = 5;
-            // 
-            // listBox6
-            // 
-            this.listBox6.FormattingEnabled = true;
-            this.listBox6.ItemHeight = 16;
-            this.listBox6.Location = new System.Drawing.Point(308, 183);
-            this.listBox6.Name = "listBox6";
-            this.listBox6.Size = new System.Drawing.Size(382, 212);
-            this.listBox6.TabIndex = 4;
+            this.listBox4.TabIndex = 4;
             // 
             // Form1
             // 
@@ -106,8 +86,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.listBox4);
-            this.Controls.Add(this.listBox5);
-            this.Controls.Add(this.listBox6);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
@@ -126,8 +104,6 @@
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.ListBox listBox4;
-        private System.Windows.Forms.ListBox listBox5;
-        private System.Windows.Forms.ListBox listBox6;
     }
 }
 
